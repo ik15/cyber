@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #7b0493;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin-bottom: 5px;
+}
+
+.header-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.header-item__link {
+  color: #7a7a7a;
+  font-weight: bold;
+}
+
+.header-item__link:hover {
+  color: #7b0493;
+  text-decoration: underline;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+
+/* main */
+
+.main {
+  background-image: url(./images/specialization_back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 300px 0;
+}
+
+.main-content__box__one {
+  margin-right: 40px;
+}
+
+.main-content__header {
+  margin-bottom: 25px;
+}
+
+.main-content__par__one {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.main-content__par-two {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.main-btn {
+  padding: 15px 25px;
+}
+
+.main-content__box-two-par {
+  color: #6ec1e4;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* about */
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-header {
+  margin-bottom: 25px;
+}
+
+.about-one {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.about-two {                
+  width: 44%;
+  height: 500px;
+  padding: 15px;
+  border: 1px solid #7b0493;
+  border-radius: 10px;
+}
+
+.about-paragraph {
+  color: #7a7a7a;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.learn-item {
+  color: #7a7a7a;
+  margin-bottom: 8px;
+}
+
+.learn-paragraph {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.about-learn {
+  padding: 15px;
+  border: 1px solid #7b0493;
+  border-radius: 10px;
+}
+
+.about-two-img {
+  width: 54px;
+}
+
+.about-two-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+}
+
+.about-two-img {
+  margin-right: 25px;
+}
+
+.about-two-box-header {
+  color: #7b0493;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.about-two-box-paragraph {
+  color: #7a7a7a;
+  font-size: 15px;
+}
